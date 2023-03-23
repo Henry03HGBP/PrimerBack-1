@@ -18,6 +18,7 @@ async function main(){
         console.log("Conexion exitosa")
     }catch (error) {
         console.log(error)
+        return;
     }
 
     const app = express();
